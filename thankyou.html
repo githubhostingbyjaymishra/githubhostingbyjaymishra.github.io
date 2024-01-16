@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="zxx" class="theme-light">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/boxicons.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.min.css">
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<link rel="stylesheet" href="assets/css/dark.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title> ARD | Thankyou</title>
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<!-- Meta Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '928185701668464');
+	fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=928185701668464&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Meta Pixel Code -->
+	<style>
+		.thank-you-message .divider {
+			border: 0;
+			height: 2px;
+			/* You can adjust the height of the line */
+			background-image: linear-gradient(to right, transparent, #fff, transparent);
+			margin: 20px auto;
+			/* Adjust the vertical space around the line */
+			width: 80%;
+			/* Adjust the width of the line */
+		}
+
+		@font-face {
+			font-family: "Raleway";
+			src: url('Raleway-Regular.ttf');
+		}
+
+		.rl-way {
+			font-family: "Raleway";
+		}
+
+		.buy-now-btn {
+			display: none !important;
+		}
+
+		.information-card {
+			padding-left: 0px !important;
+			text-align: center;
+		}
+
+		.information-card p {
+			font-size: 19px;
+		}
+
+		.fix-icon {
+			display: inline-block;
+			position: fixed;
+			bottom: 165px;
+			left: 20px;
+			z-index: 999999;
+		}
+
+		/*#fix-icon {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+.fix-icon-item {
+    animation: bounce 1s infinite alternate;
+    animation-duration: 1s;
+    -webkit-animation: bounce 1s infinite alternate;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+}*/
+		.fix-icon-item {
+			width: 55px !important;
+			height: 55px !important;
+			background:
+				#ff7400;
+			border-radius: 50%;
+			text-align: center;
+			cursor: pointer;
+			padding: 10px;
+		}
+
+		.fix-icon-whataap {
+			display: inline-block;
+			position: fixed;
+			bottom: 30px;
+			left: 20px;
+			z-index: 999999;
+			transition: all0.5s ease-in-out;
+		}
+
+		.fix-iconn {
+			display: inline-block;
+			position: fixed;
+			bottom: 100px;
+			left: 20px;
+			z-index: 999999;
+		}
+
+		.fix-iconn-item {
+			width: 55px !important;
+			height: 55px !important;
+			background: #f54033;
+			border-radius: 50%;
+			text-align: center;
+			cursor: pointer;
+			padding: 10px;
+		}
+
+
+
+		.fix-icon-whataap-item {
+			border-radius: 50%;
+			box-shadow: 1px 1px 4px rgba(60, 60, 60, .4);
+			transition: box-shadow .2s;
+			cursor: pointer;
+			overflow: hidden;
+			width: 55px !important;
+			height: 55px !important;
+			background:
+				#25d366 !important;
+		}
+
+		.owl-carousel {
+			display: inherit !important;
+		}
+
+		.t-lft {
+			text-align: left;
+		}
+
+		.c-back {
+			background: #c8a888;
+			color: #fff;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.t-enab {
+				margin-top: 20px !important;
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			.pad-nw {
+				width: 70% !important;
+				margin-top: -10px !important;
+				/*margin-right:30px!important;*/
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			.p-tbl {
+				font-size: 7px !important;
+			}
+		}
+
+		.m-margn {
+			margin-left: 11px;
+			font-size: 23px;
+			font-weight: 700;
+		}
+
+		.imgs-png {
+			width: 24%;
+			margin-top: 8px;
+		}
+
+		.cp-fnt {
+			margin-top: -35px;
+			color: #fff;
+			margin-left: 58px;
+			font-size: 14px;
+		}
+
+		.colr-cng {
+			padding-left: 0px;
+			list-style: none;
+			margin-top: 15px;
+			color: #0d1820;
+		}
+
+		.b-col {
+			left: 0px;
+			color: #fff !important;
+		}
+
+		.fixedcall {
+			position: fixed;
+			width: 225px;
+			height: 45px;
+			margin: 0;
+			padding: 0;
+			top: 48%;
+			right: -181px;
+			z-index: 999;
+			border-radius: 10px 0 0 10px;
+			overflow: hidden;
+			background: #fff;
+			-webkit-transition: .4s;
+			-moz-transition: .4s;
+			-o-transition: .4s;
+			transition: .4s;
+		}
+
+		.fixedcall a {
+			display: block;
+			font-size: 14px;
+			line-height: 16px;
+			text-align: left;
+			font-weight: 600;
+			letter-spacing: .6px;
+			text-decoration: none;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+			-webkit-transition: .4s;
+			-moz-transition: .4s;
+			-o-transition: .4s;
+			transition: .4s;
+		}
+
+		.fixedcall a span {
+			width: 45px;
+			height: 45px;
+			float: left;
+			background: #c8a888;
+			font-size: 25px;
+			margin: 0 15px 0 0;
+			text-align: center;
+			line-height: 45px;
+			color: #fff;
+		}
+
+		.fixedcall a p {
+			margin: 0;
+			padding: 0px;
+			color: #000;
+		}
+
+		.fixedcall a svg {
+			color: #fff;
+			-webkit-animation: tada 1.25s infinite;
+			-moz-animation: tada 1.25s infinite;
+			-ms-animation: tada 1.25s infinite;
+			animation: tada 1.25s infinite;
+		}
+
+
+		.fixedmail {
+			position: fixed;
+			width: 225px;
+			height: 45px;
+			margin: 0;
+			padding: 0;
+			top: 66%;
+			right: -181px;
+			z-index: 999;
+			border-radius: 10px 0 0 10px;
+			overflow: hidden;
+			background: #fff;
+			-webkit-transition: .4s;
+			-moz-transition: .4s;
+			-o-transition: .4s;
+			transition: .4s;
+		}
+
+
+		.fixedmail a {
+			display: block;
+			font-size: 14px;
+			line-height: 16px;
+			text-align: left;
+			font-weight: 600;
+			letter-spacing: .6px;
+			text-decoration: none;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+			-webkit-transition: .4s;
+			-moz-transition: .4s;
+			-o-transition: .4s;
+			transition: .4s;
+		}
+
+		.fixedmail a span {
+			width: 45px;
+			height: 45px;
+			float: left;
+			background: #c8a888;
+			font-size: 25px;
+			margin: 0 15px 0 0;
+			text-align: center;
+			line-height: 45px;
+			color: #fff;
+		}
+
+		.fixedmail a p {
+			margin: 0;
+			padding: 0px;
+			color: #000;
+		}
+
+		.fixedmail a svg {
+			color: #fff;
+			-webkit-animation: tada 1.25s infinite;
+			-moz-animation: tada 1.25s infinite;
+			-ms-animation: tada 1.25s infinite;
+			animation: tada 1.25s infinite;
+		}
+
+		.fixedmail:hover {
+			right: 0;
+		}
+
+		.fixedwhatapp {
+			position: fixed;
+			width: 225px;
+			height: 45px;
+			margin: 0;
+			padding: 0;
+			top: 57%;
+			right: -181px;
+			z-index: 999;
+			border-radius: 10px 0 0 10px;
+			overflow: hidden;
+			background: #fff;
+			-webkit-transition: .4s;
+			-moz-transition: .4s;
+			-o-transition: .4s;
+			transition: .4s;
+		}
+
+		.fixedwhatapp a {
+			display: block;
+			font-size: 14px;
+			line-height: 16px;
+			text-align: left;
+			font-weight: 600;
+			letter-spacing: .6px;
+			text-decoration: none;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+			-webkit-transition: .4s;
+			-moz-transition: .4s;
+			-o-transition: .4s;
+			transition: .4s;
+		}
+
+		.fixedwhatapp a span {
+			width: 45px;
+			height: 45px;
+			float: left;
+			background: #c8a888;
+			font-size: 25px;
+			margin: 0 15px 0 0;
+			text-align: center;
+			line-height: 45px;
+			color: #fff;
+		}
+
+		.fixedwhatapp a p {
+			margin: 0;
+			padding: 0px;
+			color: #000;
+		}
+
+		.fixedwhatapp a svg {
+			color: #fff;
+			-webkit-animation: flipInY 1.25s infinite;
+			-moz-animation: flipInY 1.25s infinite;
+			-ms-animation: flipInY 1.25s infinite;
+			animation: flipInY 1.25s infinite;
+		}
+
+		.fixedwhatapp:hover {
+			right: 0;
+		}
+
+		@-webkit-keyframes tada {
+			0% {
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
+
+			10%,
+			20% {
+				-webkit-transform: scale(0.9) rotate(-3deg);
+				transform: scale(0.9) rotate(-3deg);
+			}
+
+			30%,
+			50%,
+			70%,
+			90% {
+				-webkit-transform: scale(1.1) rotate(3deg);
+				transform: scale(1.1) rotate(3deg);
+			}
+
+			40%,
+			60%,
+			80% {
+				-webkit-transform: scale(1.1) rotate(-3deg);
+				transform: scale(1.1) rotate(-3deg);
+			}
+
+			100% {
+				-webkit-transform: scale(1) rotate(0);
+				transform: scale(1) rotate(0);
+			}
+		}
+
+		@keyframes tada {
+			0% {
+				-webkit-transform: scale(1);
+				-ms-transform: scale(1);
+				transform: scale(1);
+			}
+
+			10%,
+			20% {
+				-webkit-transform: scale(0.9) rotate(-3deg);
+				-ms-transform: scale(0.9) rotate(-3deg);
+				transform: scale(0.9) rotate(-3deg);
+			}
+
+			30%,
+			50%,
+			70%,
+			90% {
+				-webkit-transform: scale(1.1) rotate(3deg);
+				-ms-transform: scale(1.1) rotate(3deg);
+				transform: scale(1.1) rotate(3deg);
+			}
+
+			40%,
+			60%,
+			80% {
+				-webkit-transform: scale(1.1) rotate(-3deg);
+				-ms-transform: scale(1.1) rotate(-3deg);
+				transform: scale(1.1) rotate(-3deg);
+			}
+
+			100% {
+				-webkit-transform: scale(1) rotate(0);
+				-ms-transform: scale(1) rotate(0);
+				transform: scale(1) rotate(0);
+			}
+		}
+
+		.tada {
+			-webkit-animation-name: tada;
+			animation-name: tada;
+		}
+
+		.fixedcall:hover {
+			right: 0;
+		}
+
+		.fixedcall1:hover {
+			right: 0;
+		}
+
+		@-webkit-keyframes flipInY {
+			from {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+				opacity: 0;
+			}
+
+			40% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+			}
+
+			60% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+				opacity: 1;
+			}
+
+			80% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+			}
+
+			to {
+				-webkit-transform: perspective(400px);
+				transform: perspective(400px);
+			}
+		}
+
+		@keyframes flipInY {
+			from {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+				opacity: 0;
+			}
+
+			40% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+			}
+
+			60% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+				opacity: 1;
+			}
+
+			80% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+			}
+
+			to {
+				-webkit-transform: perspective(400px);
+				transform: perspective(400px);
+			}
+		}
+
+		.flipInY {
+			-webkit-backface-visibility: visible !important;
+			backface-visibility: visible !important;
+			-webkit-animation-name: flipInY;
+			animation-name: flipInY;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.th-nk {
+				font-size: 50px !important;
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			.c-imgs {
+				margin-top: 30px !important;
+			}
+		}
+	</style>
+	<style>
+		.thank-you-container {
+			position: relative;
+			text-align: center;
+			color: white;
+			background-image: url('assets/img/Tnamkyou-Page-ARD.png');
+			/* Replace with your image path */
+			background-size: cover;
+			background-position: center;
+			padding: 100px 20px;
+		}
+
+		.thank-you-container::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.5);
+			/* Overlay color */
+		}
+
+		.thank-you-message {
+			position: relative;
+			z-index: 2;
+		}
+
+		.thank-you-message h1 {
+			font-size: 2.5em;
+			margin-bottom: 0.5em;
+		}
+
+		.thank-you-message p {
+			font-size: 1.2em;
+			margin-bottom: 2em;
+		}
+
+		.button {
+			background-color: #ffa500;
+			/* Button color */
+			color: #ffffff;
+			padding: 10px 20px;
+			text-decoration: none;
+			display: inline-block;
+			transition: background-color 0.3s;
+		}
+
+		.button:hover {
+			background-color: #cc8400;
+			/* Button hover color */
+			color: #000;
+		}
+
+		/* Responsive styles */
+		@media (max-width: 768px) {
+			.thank-you-message h1 {
+				font-size: 2em;
+			}
+		}
+
+		@media (max-width: 480px) {
+			.thank-you-message h1 {
+				font-size: 1.5em;
+			}
+
+			.thank-you-message p {
+				font-size: 1em;
+			}
+
+			.button {
+				padding: 8px 16px;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="main-navbar">
+		<nav class="navbar navbar-style-black-color navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<div class="logo">
+					<a href="index.html">
+						<img src="assets/img/Logo.png" alt="image">
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<div class="others-option">
+						<div class="d-flex align-items-center">
+							<div class="option-item">
+								<a href="tel:+91-9082278700" style="color: #fff;"><i class="fa fa-phone"></i>
+									&nbsp;&nbsp;+91-9082278700</a>
+							</div>
+
+							<div class="option-item">
+								<a href="+91-9082278700" style="color: #fff;">|</a>
+							</div>
+
+							<div class="option-item">
+								<a href="mailto:asumi@asumirawatdesiign.com" style="color: #fff;"><i class="fa fa-envelope"></i>
+									&nbsp;&nbsp;asumi@asumirawatdesiign.com</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+
+
+
+	<div class="thank-you-container">
+		<div class="thank-you-message">
+			<h1 style="color: #cc8400;">WE'RE GLAD YOU CHOOSE US!</h1>
+			<hr class="divider">
+			<p style=" margin: auto;
+    max-width: 60%;">Thank you for choosing Asumi Rawat Desiign. Your free design consultation call is booked, Our experts will get
+				back to you within 24 hours.</p>
+			<!--<a href="#" class="button">BOOK A FREE DESIGN CONSULTATION CALL</a>-->
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="fixedcall">
+		<a class="phonenumber" href="tel:+91-9082278700">
+			<span><i class="fas fa-phone-volume"></i></span>
+			<p>Call Now<br>9082278700</p>
+		</a>
+	</div>
+
+	<div class="fixedwhatapp">
+		<a class="phonenumber" href="https://api.whatsapp.com/send?phone=+919082278700&amp;text=Hi, I got your Number from your website. I am interested in your interior designing services."
+			target="_blank">
+			<span><i class="fab fa-whatsapp"></i></span>
+			<p>WhatsApp<br>9082278700</p>
+		</a>
+	</div>
+
+	<div class="fixedmail">
+		<a class="phonenumber" href="mailto:asumi@asumirawatdesiign.com">
+			<span><i class="fas fa-envelope"></i></span>
+			<p>Mail Us<br>asumi@asumirawat</p>
+		</a>
+	</div>
+	
+	
+	<footer class="footer-style-area pt-100 d-none d-lg-block" id="contact">
+		<div class="container">
+			<div class="row justify-content-center">
+				<section class="contact-section">
+					<div class="contact-info">
+						<h1>Contact Us</h1>
+						<p>ASUMI RAWAT DESIGN</p>
+						<p>
+							<i class="fa fa-home" aria-hidden="true"></i> 
+							<strong>D-12A, COMMERCE CENTRE,</strong><br>
+							<span>4th Floor, 78 Tardeo Road,</span><br>
+							<span>Mumbai - 400034</span>
+						</p>
+						<a href="tel:+91-9082278700" style="color: #fff;"><i class="fa fa-phone"></i>
+							&nbsp;&nbsp;+91-9082278700</a> <br>
+							<a href="mailto:asumi@asumirawatdesiign.com" style="color: #fff;"><i class="fa fa-envelope"></i>
+								&nbsp;&nbsp;asumi@asumirawatdesiign.com</a>
+					</div>
+					<form class="contact-form" id="contact-form" method="post" action="sendEmail.php" role="form">
+						<div class="messages"></div>
+						<div class="form-group1">
+							<input type="text" name="name" id="first-name" placeholder="First Name *"
+								required="required" data-error="Enter Your Name">
+							<input type="text" name="surname" id="last-name" placeholder="Last  *" required="required"
+								data-error="Enter Your Surname">
+						</div>
+						<input name="email" required="required" data-error="Enter Your Email Id" type="email" id="email"
+							placeholder="Email *">
+						<textarea name="enquiry" id="message" placeholder="Message *" required="required"
+							data-error="Please, leave us a message."></textarea>
+						<button type="submit">Send</button>
+					</form>
+				</section>
+			</div>
+			<div class="copyright-style-area">
+				<div class="row align-items-center">
+					<div class="col-lg-12 col-md-12">
+						<div class="copyright-item" style="text-align: center;">
+							<p>© Copyright 2024 - ASUMI RAWAT DESIGN </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<footer class="footer-style-area pt-100 d-lg-none" id="contact">
+		<div class="container">
+			<div class="row justify-content-center">
+				<section class="contact-section">
+					<div class="contact-info">
+						<h1>Contact Us</h1>
+						<p>ASUMI RAWAT DESIGN</p>
+						<p>
+							<i class="fa fa-home" aria-hidden="true"></i> 
+							<strong>D-12A, COMMERCE CENTRE,</strong><br>
+							<span>4th Floor, 78 Tardeo Road,</span><br>
+							<span>Mumbai - 400034</span>
+						</p>
+						<a href="tel:+91-9082278700" style="color: #fff;"><i class="fa fa-phone"></i>
+							&nbsp;&nbsp;+91-9082278700</a> <br>
+							<a href="mailto:asumi@asumirawatdesiign.com" style="color: #fff;"><i class="fa fa-envelope"></i>
+								&nbsp;&nbsp;asumi@asumirawatdesiign.com</a>
+					</div>
+					<form class="contact-form fastcontac" id="contact-form" method="post" action="" role="form">
+						<div class="messages"></div>
+						<div class="form-group1">
+							<input type="text" name="name" id="first-name" placeholder="First Name *"
+								required="required" data-error="Enter Your Name">
+							<input type="text" name="surname" id="last-name" placeholder="Last Name *"
+								required="required" data-error="Enter Your Surname">
+						</div>
+						<input name="email" required="required" data-error="Enter Your Email Id" type="email" id="email"
+							placeholder="Email *">
+						<textarea name="enquiry" id="message" placeholder="Message *" required="required"
+							data-error="Please, leave us a message."></textarea>
+						<button type="submit">Send</button>
+					</form>
+				</section>
+			</div>
+
+		</div>
+		<div class="copyright-style-area">
+			<div class="row align-items-center">
+				<div class="col-lg-12 col-md-12">
+					<div class="copyright-item" style="text-align: center;">
+						<p>© Copyright 2024 - ASUMI RAWAT DESIGN </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!-- <script src="assets/js/jquery.magnific-popup.min.js"></script> -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/jquery.nice-select.min.js"></script>
+	<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+	<script src="assets/js/form-validator.min.js"></script>
+	<script src="assets/js/contact-form-script.js"></script>
+	<script src="assets/js/jquery.mixitup.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+</body>
+
+</html>
